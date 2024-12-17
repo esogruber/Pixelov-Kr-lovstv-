@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web o hrách - novinky, hry zdarma, recenze, slevy">
+    <title>Web o Hrách</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hlavní navigační menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#novinky">Novinky</a></li>
+                <li><a href="#hry-zdarma">Hry zdarma</a></li>
+                <li><a href="#slevy">Slevy</a></li>
+                <li><a href="#recenze">Recenze a tipy</a></li>
+                <li><a href="#onas">O nás</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hlavní stránka (Home) -->
+    <section id="home" class="hero">
+        <div class="hero-banner">
+            <h1>Vítejte na webu o hrách!</h1>
+            <p>Objevte nejnovější novinky, slevy a hry zdarma.</p>
+        </div>
+        <div class="quick-links">
+            <a href="#novinky">Novinky</a>
+            <a href="#hry-zdarma">Hry zdarma</a>
+            <a href="#recenze">Recenze</a>
+        </div>
+    </section>
+
+    <!-- Sekce Novinky -->
+    <section id="novinky">
+        <h2>Novinky ze světa her</h2>
+        <article>
+            <h3>Nové vydání: XYZ Game</h3>
+            <p>Nejnovější hra XYZ přichází na trh. Zjistěte všechny podrobnosti a novinky!</p>
+        </article>
+        <article>
+            <h3>Event na Steam</h3>
+            <p>Podívejte se na slevy a akce na Steam během tohoto víkendu!</p>
+        </article>
+    </section>
+
+    <!-- Sekce Hry zdarma -->
+    <section id="hry-zdarma">
+        <h2>Hry zdarma</h2>
+        <ul>
+            <li>Free Game 1 (Epic Games) - Do 31. prosince</li>
+            <li>Free Game 2 (Steam) - Do 25. prosince</li>
+            <li>Free Game 3 (Origin) - Do 30. prosince</li>
+        </ul>
+    </section>
+
+    <!-- Sekce Slevy -->
+    <section id="slevy">
+        <h2>Slevy na hry</h2>
+        <ul>
+            <li><a href="#">Akce: Hra 1 - 50% sleva</a></li>
+            <li><a href="#">Akce: Hra 2 - 40% sleva</a></li>
+            <li><a href="#">Akce: Hra 3 - 30% sleva</a></li>
+        </ul>
+    </section>
+
+    <!-- Sekce Recenze a tipy -->
+    <section id="recenze">
+        <h2>Recenze a tipy</h2>
+        <article>
+            <h3>Recenze: Game XYZ</h3>
+            <p>Hodnocení: ★★★★☆</p>
+            <p>Výhody: Skvělý příběh, poutavá grafika.</p>
+            <p>Nevýhody: Občasná repetitivnost.</p>
+        </article>
+        <article>
+            <h3>Tipy na hry</h3>
+            <p>Pokud máte rádi akční RPG, doporučujeme Hru ABC!</p>
+        </article>
+    </section>
+
+    <!-- Sekce O nás -->
+    <section id="onas">
+        <h2>O nás</h2>
+        <p>Jsme tým nadšenců do her a tento web vytváříme pro všechny hráče, kteří hledají novinky, slevy a zajímavé tipy.</p>
+        <p>Kontaktujte nás na: <a href="mailto:kontakt@webohrach.cz">kontakt@webohrach.cz</a></p>
+    </section>
+
+    <!-- Patka stránky -->
+    <footer>
+        <p>&copy; 2024 Web o Hrách | Všechna práva vyhrazena</p>
+        <div>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
